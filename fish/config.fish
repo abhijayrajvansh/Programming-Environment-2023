@@ -23,7 +23,7 @@ if status is-interactive
     alias desktop='cd /Users/abhijayrajvansh/Desktop'
     alias fish-c='code /Users/abhijayrajvansh/.config/fish/config.fish'
     
-    alias git-push-vscode-snippets='cp -r /Users/abhijayrajvansh/Library/Application\ Support/Code/user/snippets/ /Users/abhijayrajvansh/Desktop/programming-environment/vscode && cd /Users/abhijayrajvansh/Desktop/programming-environment/vscode && git-push "Updating User Snippets From VScode"'
+    alias git-push-vscode-snippets='cp -r /Users/abhijayrajvansh/Library/Application\ Support/Code/user/snippets/ /Users/abhijayrajvansh/Desktop/programming-environment-2023/vscode && cd /Users/abhijayrajvansh/Desktop/programming-environment-2023/vscode && git-push "Updating User Snippets From VScode"'
     
     function push-templates
         git-push-vscode-snippets
@@ -68,8 +68,8 @@ if status is-interactive
     alias tt='cd /Users/abhijayrajvansh/Desktop/6th-SEM && oo tt.jpeg'
 
     #Programming environment:
-    alias programming-environment='desktop && cd programming-environment'
-    alias template='cd /Users/abhijayrajvansh/Desktop/programming-environment/Templates'
+    alias programming-environment='desktop && cd programming-environment-2023'
+    alias template='cd /Users/abhijayrajvansh/Desktop/programming-environment-2023/Templates'
     alias abhijayrajvansh.cpp='template && prg abhijayrajvansh.cpp'
 
 
