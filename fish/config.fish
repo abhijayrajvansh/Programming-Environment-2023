@@ -146,5 +146,4 @@ if status is-interactive
     # getcontrol
 
 desktop
-
 end
