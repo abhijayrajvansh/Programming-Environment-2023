@@ -54,8 +54,11 @@ if status is-interactive
     function deb # ABHIJAY_DEBUG FILE_NAME.cpp
         echo "[ABHIJAY_DEBUG MODE] Compiling" $argv.cpp" with G++17..."
         # sleep 1
-        g++ -std=c++17 -DABHIJAY_DEBUG $argv.cpp && ./a.out
+        g++ -std=c++17 -DABHIJAY_DEBUG $argv.cpp
+        ./a.out
     end
+
+    
 
     
     # alias deb-main='echo "[ABHIJAY_DEBUG MODE] Compiling main.cpp with G++17..." && g++ -DABHIJAY_DEBUG main.cpp -o main && ./main'
