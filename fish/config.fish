@@ -57,9 +57,6 @@ if status is-interactive
         g++ -std=c++17 -DABHIJAY_DEBUG $argv.cpp
         ./a.out
     end
-
-    
-
     
     # alias deb-main='echo "[ABHIJAY_DEBUG MODE] Compiling main.cpp with G++17..." && g++ -DABHIJAY_DEBUG main.cpp -o main && ./main'
 
@@ -146,7 +143,7 @@ if status is-interactive
     alias hidedesktop='defaults write com.apple.finder CreateDesktop false;killall Finder'
     # Startup commands:
     # echo "** Welcome Back Mr.Rajvansh **"
-    # getcontrol
+    # getcontrol    
 
-desktop
+    desktop
 end
